@@ -40,7 +40,7 @@ h1 {
 
 h2, h3 {
     font-family: var(--font-heading);
-    color: var(--black); /* Corrected color variable */
+    color: var(--black);
 }
 
 h2 {
@@ -58,7 +58,6 @@ p {
     margin-bottom: 1em;
 }
 
-/* General styling for the navigation bar */
 .navbar {
     background-color: var(--green);
     color: var(--white);
@@ -112,7 +111,6 @@ p {
     background-color: #FF6347;
 }
 
-/* -------------------- SALE ITEMS -------------------- */
 .sale-items {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +149,6 @@ figcaption {
     border-radius: 5px;
 }
 
-/* -------------------- FOOTER -------------------- */
 .footer {
     background-color: var(--green);
     color: var(--white);
@@ -187,7 +184,6 @@ figcaption {
     color: #eaeaea;
 }
 
-/* Styling for the "Top" button */
 .footer .top-button {
     position: absolute;
     bottom: 20px;
@@ -259,7 +255,6 @@ figcaption {
     }
 }
 
-/* Styling for the fixed "Top" button */
 .top-button {
   position: fixed;
   bottom: 20px;
